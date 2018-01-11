@@ -9,6 +9,7 @@
  * @link      https://www.opensource-socialnetwork.org/
  */
 $menus = $params['menu'];
+
 ?>
 <div class="sidebar-menu-nav">
           <div class="sidebar-menu">
@@ -55,4 +56,7 @@ foreach ($menus as $name => $menu) {
 
          </ul>
     </div>
+	<div>
+		<ul><li><a href="hello" style="color:white">  OTHER COMMUNITIES</a></li></ul>
+	</div>
 </div>
